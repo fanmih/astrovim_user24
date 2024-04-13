@@ -92,6 +92,11 @@ return {
           l = { "<cmd>ChatGPTRun code_readability_analysis<CR>", "Code Readability Analysis", mode = { "n", "v" } },
         },
       },
+      i = {
+        -- map Ctrl-j to forward delete while in insert mode
+        ["<C-f>"] = { "<Del>", desc = "Delete character forward" },
+        -- ["<C-f>"] = { function() vim.api.nvim_input "<Del>" end, desc = "Delete character forward" },
+      },
       t = {
         -- setting a mapping to false will disable it
         -- ["<esc>"] = false,
