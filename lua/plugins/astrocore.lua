@@ -39,6 +39,7 @@ return {
         -- This can be found in the `lua/lazy_setup.lua` file
         vimtex_view_method = "skim",
         vimtex_view_skim_activate = 1,
+        vimtex_view_skim_reading_bar = 1,
       },
     },
     -- Mappings can be configured through AstroCore as well.
