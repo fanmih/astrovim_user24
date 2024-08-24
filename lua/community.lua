@@ -56,4 +56,5 @@ return {
   { import = "astrocommunity.lsp.actions-preview-nvim" },
   { import = "astrocommunity.motion.before-nvim" },
   { import = "astrocommunity.motion.nvim-tree-pairs" },
+  { import = "astrocommunity.icon.mini-icons" },
 }
